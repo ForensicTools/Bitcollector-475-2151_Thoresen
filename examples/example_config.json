@@ -1,0 +1,28 @@
+{
+    "module_list": [
+        {
+            "name": "Test1",
+            "parameters": [
+                {
+                    "par1": "Hello, world!"
+                },
+                {
+                    "par2": 42
+                },
+				{
+				    "logging_level": "debug"
+				}
+            ]
+        }
+    ],
+    "additional_paths": [
+        {
+            "path": "../Modules"
+        }
+    ],
+    "log_file": "../../../logs/$(DATE)_$(TIME)_example",
+	"logging_format": "html",
+    "logging_level": "debug",
+    "log_to_file": 1,
+    "log_to_stdout": 1
+}
